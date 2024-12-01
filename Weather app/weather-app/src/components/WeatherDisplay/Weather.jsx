@@ -28,7 +28,8 @@ const Weather = () => {
       }}>
     <Card>
       <h1>Weather App</h1>
-      <input
+      <input style={{ padding: "5px 10px"}}
+      
         type="text"
         placeholder="Enter city"
         value={city}
